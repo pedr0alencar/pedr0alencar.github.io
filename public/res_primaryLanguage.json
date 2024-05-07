@@ -1,118 +1,99 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Olá Mundo!",
+    "description": "Me chamo Pedro Alencar, mais conhecido como Speedy Dev. Atualmente, sou estudante de Engenharia de Computação na UFMS e Desenvolvedor Mobile na Mega Júnior, trabalhando com Python, HTML, CSS, JavaScript, e PHP, junto com frameworks como Django e Flutter.",
+    "section_name": {
+      "about": "Sobre mim",
+      "projects": "Projetos",
+      "skills": "Habilidades",
+      "experience": "Experiência"
+    }
+  },
+  "projects": [
+    {
+      "title": "Unissaúde",
+      "startDate": "2023",
+      "description": "Participação ativa como um dos desenvolvedores do app Unisaúde para o Hospital Universitário da UFMS, utilizando Flutter. Este projeto permitiu o aprimoramento de minhas habilidades em desenvolvimento mobile e trabalho em equipe.",
+      "images": [
+        "images/portfolio/unisaude/p1.png",
+        "images/portfolio/unisaude/p2.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-flutter-plain",
+          "name": "Flutter"
+        },
+        {
+          "class": "devicon-dart-plain",
+          "name": "Dart"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Atualização do ATERMS",
+      "startDate": "2023",
+      "description": "Iniciei o projeto de atualização do site obsoleto da AGRAER para tecnologias modernas, migrando de Classic ASP para Python. Fui responsável pelo planejamento das etapas iniciais, utilizando Django como framework. A aplicação não foi finalizada, ainda ocorre testes com os atuais desenvolvedores, seu repositório é fechado ao público devido a quanrtidade de dados sensíveis dos servidores nela contido.",
+      "images": [
+        "images/portfolio/aterms/p1.png",
+        "images/portfolio/aterms/p2.png"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Mega Júnior",
+      "title": "Diretor de Comunicação e Marketing",
+      "years": "Jan 2024–Atual",
+      "mainTech": [
+        "Comunicação e Marketing"
+      ],
+      "technologies": [
+        "Canva Pro",
+        "Trello",
+        "Notion"
+      ]
+    },
+    {
+      "company": "Mega Júnior",
+      "title": "Desenvolvedor Mobile",
+      "years": "Set 2023–Atual",
+      "mainTech": [
+        "Flutter"
+      ],
+      "technologies": [
+        "Dart",
+        "Figma",
+        "Scrum"
+      ]
+    },
+    {
+      "company": "Agência de Desenvolvimento Rural e Agrário",
+      "title": "Estagiário",
+      "years": "Ago 2023–Mar 2024",
+      "mainTech": [
+        "Desenvolvedor Web"
+      ],
+      "technologies": [
+        "Manutenção de Componentes Eletrônicos",
+        "Gerenciamento de Redes Sociais",
+        "Funil de Vendas",
+        "Canva",
+        "Trello",
+        "Notion",
+        "Ploomes"
+      ]
+    }
+  ]
+}
