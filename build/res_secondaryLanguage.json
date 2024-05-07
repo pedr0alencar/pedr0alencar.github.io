@@ -1,0 +1,99 @@
+{
+  "basic_info": {
+    "description_header": "Hello World!",
+    "description": "My name is Pedro Alencar, also known as Speedy Dev. I am currently a Computer Engineering student at UFMS and a Mobile Developer at Mega Júnior, working with Python, HTML, CSS, JavaScript, and PHP, alongside frameworks such as Django and Flutter.",
+    "section_name": {
+      "about": "About Me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Unisaúde",
+      "startDate": "2023",
+      "description": "Actively participated as one of the developers of the Unisaúde app for the UFMS University Hospital, using Flutter. This project enhanced my skills in mobile development and teamwork.",
+      "images": [
+        "images/portfolio/unisaude/p1.png",
+        "images/portfolio/unisaude/p2.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-flutter-plain",
+          "name": "Flutter"
+        },
+        {
+          "class": "devicon-dart-plain",
+          "name": "Dart"
+        }
+      ]
+    },
+    {
+      "title": "ATERMS Update",
+      "startDate": "2023",
+      "description": "I initiated the project to update the obsolete AGRAER website to modern technologies, migrating from Classic ASP to Python. I was responsible for planning the initial stages, utilizing Django as the framework. The application has not been completed and is still undergoing testing with the current developers; its repository is closed to the public due to the sensitive data of the servers contained within.",
+      "images": [
+        "images/portfolio/aterms/p1.png",
+        "images/portfolio/aterms/p2.png"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Mega Júnior",
+      "title": "Director of Communication and Marketing",
+      "years": "Jan 2024–Present",
+      "mainTech": [
+        "Communication and Marketing"
+      ],
+      "technologies": [
+        "Canva Pro",
+        "Trello",
+        "Notion"
+      ]
+    },
+    {
+      "company": "Mega Júnior",
+      "title": "Mobile Developer",
+      "years": "Sep 2023–Present",
+      "mainTech": [
+        "Flutter"
+      ],
+      "technologies": [
+        "Dart",
+        "Figma",
+        "Scrum"
+      ]
+    },
+    {
+      "company": "Agency for Rural Development and Agriculture",
+      "title": "Intern",
+      "years": "Aug 2023–Mar 2024",
+      "mainTech": [
+        "Web Developer"
+      ],
+      "technologies": [
+        "Electronic Component Maintenance",
+        "Social Media Management",
+        "Sales Funnel",
+        "Canva",
+        "Trello",
+        "Notion",
+        "Ploomes"
+      ]
+    }
+  ]
+}

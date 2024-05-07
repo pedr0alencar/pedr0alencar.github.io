@@ -1,0 +1,99 @@
+{
+  "basic_info": {
+    "description_header": "Olá Mundo!",
+    "description": "Me chamo Pedro Alencar, mais conhecido como Speedy Dev. Atualmente, sou estudante de Engenharia de Computação na UFMS e Desenvolvedor Mobile na Mega Júnior, trabalhando com Python, HTML, CSS, JavaScript, e PHP, junto com frameworks como Django e Flutter.",
+    "section_name": {
+      "about": "Sobre mim",
+      "projects": "Projetos",
+      "skills": "Habilidades",
+      "experience": "Experiência"
+    }
+  },
+  "projects": [
+    {
+      "title": "Unissaúde",
+      "startDate": "2023",
+      "description": "Participação ativa como um dos desenvolvedores do app Unisaúde para o Hospital Universitário da UFMS, utilizando Flutter. Este projeto permitiu o aprimoramento de minhas habilidades em desenvolvimento mobile e trabalho em equipe.",
+      "images": [
+        "images/portfolio/unisaude/p1.png",
+        "images/portfolio/unisaude/p2.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-flutter-plain",
+          "name": "Flutter"
+        },
+        {
+          "class": "devicon-dart-plain",
+          "name": "Dart"
+        }
+      ]
+    },
+    {
+      "title": "Atualização do ATERMS",
+      "startDate": "2023",
+      "description": "Iniciei o projeto de atualização do site obsoleto da AGRAER para tecnologias modernas, migrando de Classic ASP para Python. Fui responsável pelo planejamento das etapas iniciais, utilizando Django como framework. A aplicação não foi finalizada, ainda ocorre testes com os atuais desenvolvedores, seu repositório é fechado ao público devido a quanrtidade de dados sensíveis dos servidores nela contido.",
+      "images": [
+        "images/portfolio/aterms/p1.png",
+        "images/portfolio/aterms/p2.png"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Mega Júnior",
+      "title": "Diretor de Comunicação e Marketing",
+      "years": "Jan 2024–Atual",
+      "mainTech": [
+        "Comunicação e Marketing"
+      ],
+      "technologies": [
+        "Canva Pro",
+        "Trello",
+        "Notion"
+      ]
+    },
+    {
+      "company": "Mega Júnior",
+      "title": "Desenvolvedor Mobile",
+      "years": "Set 2023–Atual",
+      "mainTech": [
+        "Flutter"
+      ],
+      "technologies": [
+        "Dart",
+        "Figma",
+        "Scrum"
+      ]
+    },
+    {
+      "company": "Agência de Desenvolvimento Rural e Agrário",
+      "title": "Estagiário",
+      "years": "Ago 2023–Mar 2024",
+      "mainTech": [
+        "Desenvolvedor Web"
+      ],
+      "technologies": [
+        "Manutenção de Componentes Eletrônicos",
+        "Gerenciamento de Redes Sociais",
+        "Funil de Vendas",
+        "Canva",
+        "Trello",
+        "Notion",
+        "Ploomes"
+      ]
+    }
+  ]
+}
